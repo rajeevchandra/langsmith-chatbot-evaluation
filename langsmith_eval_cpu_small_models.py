@@ -7,7 +7,7 @@ import ollama
 # Setup: LangSmith API key
 # -----------------------
 os.environ["LANGSMITH_TRACING"] = "true"
-os.environ["LANGSMITH_API_KEY"] = "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"
+os.environ["LANGSMITH_API_KEY"] = ""
 
 client = Client()
 
